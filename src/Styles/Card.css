@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+}
+
+.view {
+    height: 230px;
+}
+.card {
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%)!important;
+}
+.card:hover, .card:focus {
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 15%)!important;
+}
+
+.card-wrapper{
+    display: grid;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+button.rounded {
+    background-color: white!important;
+}
+
+.purple-text, a .purple-text {
+    color: #9370db!important;
+}
+.black-text, a .black-text {
+    color: #747373!important;
+}
+
+
+@media (max-width: 576px) {}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {
+    .card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {
+    .card-wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1400px) {}

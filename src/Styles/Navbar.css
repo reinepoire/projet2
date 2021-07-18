@@ -1,0 +1,31 @@
+.nav-link.active {
+    background-color: rgba(147,112,219,.1);  
+    color: #9370db!important;
+    border-radius: 5px;
+}
+.nav-link {
+    color: #333333!important;
+}
+
+nav.navbar-expand-md {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 2rem;
+}
+
+nav.navbar-expand-md .nav-item{
+    margin-left: .5rem;
+}
+nav.navbar-expand-md .nav-item .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
+.navbar {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 16%)!important;
+}
+.navbar h1{
+    font-family: 'Fredoka One', cursive;
+}
+
